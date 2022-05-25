@@ -6,7 +6,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          repository: 'https://github.com/trinodb/trino'
+          repository: 'trinodb/trino'
       - uses: actions/setup-java@v3
         with:
           distribution: 'adopt' # See 'Supported distributions' for available options
